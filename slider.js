@@ -1,5 +1,4 @@
 const images =  ["a1.jpeg", "a2.jpeg", "a3.jpeg"];
-const audio = new Audio('AnyConv.com__ミスリル鉱山で迷子.ogg');
 
 let count = 0;
 const slideimage =()=>{
