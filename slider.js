@@ -13,7 +13,7 @@ const slideimage =()=>{
 let slideid = 0;
 const startstop = () =>{
   if(slideid === 0){//開始ボタンを押した時の処理内容
-    slideid = setInterval(slideimage, 5000);
+    slideid = setInterval(slideimage, 1000);
   　}else{ //停止ボタンを押した時の処理内容
     　clearInterval(slideid);
     　slideid = 0;
