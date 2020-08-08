@@ -1,4 +1,5 @@
 const images =  ["a1.jpeg", "a2.jpeg", "a3.jpeg"];
+const id = 'music';
 
 let count = 0;
 const slideimage =()=>{
@@ -13,10 +14,10 @@ const slideimage =()=>{
 let slideid = 0;
 const startstop = () =>{
   if(slideid === 0){//開始ボタンを押した時の処理内容
-    audio.play();
+    document.getElementById('music').play();
     slideid = setInterval(slideimage, 1000);
   　}else{ //停止ボタンを押した時の処理内容
-      audio.pause();
+      document.getElementById('music').pause();
     　clearInterval(slideid);
     　slideid = 0;
   　}
